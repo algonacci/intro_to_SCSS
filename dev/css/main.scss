@@ -1,0 +1,60 @@
+$font-main: Helvetica, sans-serif;
+$font-general: Times;
+$color-main: #333;
+
+body {
+    font-family: $font-main;
+    color: $color-main;
+    background-color: bisque;
+    margin: 0 auto;
+    width: 80%;
+}
+
+main {
+    font-family: $font-general;
+}
+
+nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    li {
+        display: inline-block;
+    }
+    a {
+        display: block;
+        padding: 6px 12px;
+        text-decoration: none;
+    }
+}
+
+
+
+.alert {
+    text-align: center;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: #121212;
+    &.success {
+        background: #45a286;
+    }
+        &:hover {
+            background: #3fe6b4;
+        }
+    &.error {
+        background: #ac4620;
+    }
+        &:hover {
+            background: #d5582b;
+        }
+    &.warning {
+        background: #c2c240;
+    }
+        &:hover {
+            background: #dede46;
+        }
+}
+

@@ -1,0 +1,53 @@
+body {
+  font-family: Helvetica, sans-serif;
+  color: #333;
+  background-color: bisque;
+  margin: 0 auto;
+  width: 80%;
+}
+
+main {
+  font-family: Times;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+.alert {
+  text-align: center;
+  padding: 5px;
+  margin: 10px 0;
+  border-radius: 5px;
+  color: #121212;
+}
+.alert.success {
+  background: #45a286;
+}
+.alert:hover {
+  background: #3fe6b4;
+}
+.alert.error {
+  background: #ac4620;
+}
+.alert:hover {
+  background: #d5582b;
+}
+.alert.warning {
+  background: #c2c240;
+}
+.alert:hover {
+  background: #dede46;
+}
+
+/*# sourceMappingURL=main.css.map */
